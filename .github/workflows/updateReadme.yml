@@ -26,6 +26,8 @@ jobs:
       with:
         node-version: '16.13.1'
         
+    - name: npm initialize
+      run: npm init -y
 #     - name: npm setup
 #       run: npm install -y
       
