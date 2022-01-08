@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: apt update
-      run: apt update
+      run: sudo apt update
       
     - name: apt install curl
-      run: apt install curl -y
+      run: sudo apt install curl -y
       
     - name: Checkout
       uses: actions/checkout@v2
