@@ -12,15 +12,25 @@ jobs:
   updateFeed:
     runs-on: ubuntu-latest
     steps:
-    - name: checkout
+    - name: apt update
+      run: apt update
+      
+    - name: apt install curl
+      run: apt install curl -y
+      
+    - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Set up npm
+    - name: Node set up
       uses: actions/setup-node@v2
       with:
         node-version: '16.13.1'
-    - run: npm install -y
-    - run: npm test
+        
+    - name: npm setup
+      run: npm install -y
+      
+    - name: npm test
+      run: npm test
     
     - name: Install feedFetcher
       run: npm install github.com/Landmaster135/feedFetcher@latest
