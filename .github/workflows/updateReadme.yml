@@ -1,9 +1,12 @@
-# name: Update README for Qiita/Zenn feed
+name: Update README for Qiita/Zenn feed
 
 # on:
 #   workflow_dispatch:
 #   schedule:
 #     - cron:  '0 0 * * *'  
+on:
+  issue_comment:
+    types: [created, edited]
 
 jobs:
   updateFeed:
@@ -23,7 +26,7 @@ jobs:
       run: npm install github.com/Landmaster135/feedFetcher@latest
     
     - name: run feedFetcher
-      run: node ./node_modules/feedFetcher/bin/run --config-yaml=configOfFeedFetcher.yml
+      run: ./node_modules/feedFetcher/bin/run --config-yaml=configOfFeedFetcher.yml
       
     - name: git setting
       run: |
