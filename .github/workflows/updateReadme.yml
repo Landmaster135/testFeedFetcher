@@ -21,6 +21,9 @@ jobs:
     
     - name: Install feedFetcher
       run: npm install github.com/Landmaster135/feedFetcher@latest
+    
+    - name: run feedFetcher
+      run: node ./node_modules/feedFetcher/bin/run --config-yaml=configOfFeedFetcher.yml
       
     - name: git setting
       run: |
