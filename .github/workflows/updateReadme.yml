@@ -21,10 +21,19 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Node set up
+    - name: node set up
       uses: actions/setup-node@v2
       with:
         node-version: '16.13.1'
+    
+    - name: Authenticate SSH
+      run: |
+        mkdir -p ~/.ssh
+        echo "$TOFEEDFETCHER" | tr -d '\r' > ~/.ssh/id_rsa
+        chmod 700 ~/.ssh/id_rsa
+        eval $(ssh-agent -s)
+        ssh-add ~/.ssh/id_rsa
+        ssh-keyscan -H github.com >> ~/.ssh/known_hosts
         
     - name: npm initialize
       run: npm init -y
