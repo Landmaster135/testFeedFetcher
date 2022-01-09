@@ -36,29 +36,11 @@ jobs:
         eval $(ssh-agent -s)
         ssh-add ~/.ssh/id_rsa
         ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-#        ssh -oStrictHostKeyChecking=no -T git@github.com
-        
-#     - name: git remote set-url
-#       run: git remote set-url origin git@github.com:Landmaster135/FeedFetcher.git
-        
-#     - name: npm initialize
-#       run: npm init -y
-#     - name: npm setup
-#       run: npm install -y
-      
-#     - name: npm test
-#       run: npm test
     
-    - name: version kakunin
+    - name: Confirm version of node and npm
       run: |
         node -v
         npm -v
-    
-    - name: tree
-      run: tree .
-    
-#     - name: Install git
-#       run: apt install git-all -y
 
     - name: Install feedFetcher
       run: npm install ssh://github.com/Landmaster135/feed-fetcher
