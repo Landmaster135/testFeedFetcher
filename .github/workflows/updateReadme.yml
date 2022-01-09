@@ -27,9 +27,11 @@ jobs:
         node-version: '16.13.1'
     
     - name: Authenticate SSH
+      env:
+        PRIVATE_KEY: ${{ secrets.TOFEEDFETCHER }}
       run: |
         mkdir -p ~/.ssh
-        echo "$TOFEEDFETCHER" | tr -d '\r' > ~/.ssh/id_rsa
+        echo "$PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
         chmod 700 ~/.ssh/id_rsa
         eval $(ssh-agent -s)
         ssh-add ~/.ssh/id_rsa
