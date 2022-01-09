@@ -53,6 +53,9 @@ jobs:
       run: |
         node -v
         npm -v
+    
+    - name: Install git
+      run: apt install git-all -y
 
     - name: Install feedFetcher
       run: npm install github.com/Landmaster135/FeedFetcher
