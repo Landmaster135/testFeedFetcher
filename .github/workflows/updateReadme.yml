@@ -46,7 +46,7 @@ jobs:
 #       run: npm test
     
     - name: Install feedFetcher
-      run: npm install github.com/Landmaster135/feedFetcher@latest
+      run: npm install github.com/Landmaster135/FeedFetcher@latest
     
     - name: run feedFetcher
       run: ./node_modules/feedFetcher/bin/run --config-yaml=configOfFeedFetcher.yml
