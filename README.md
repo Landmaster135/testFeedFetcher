@@ -48,7 +48,11 @@ You can click the Preview link to take a look at your changes.
 # Recent Posts
 
 <!--[START POSTS LIST]-->
+- ![](img/qiita.png) [Githubにある自作のnpmモジュールをnpm installしてENOENTなエラーが出た時](https://qiita.com/Landmaster135/items/2cff3d8673a07cb4ea93)
+- ![](img/qiita.png) [【Node.js】Windows環境におけるCypressのIntegrationフォルダーの場所](https://qiita.com/Landmaster135/items/e8ebf5bda349f731cf1e)
 - ![](img/qiita.png) [【Node.js】バージョンが古くてfetchが使えんのお](https://qiita.com/Landmaster135/items/19e67db282f2e35d1197)
+- ![](img/zenn.png) [【Javascript】連想配列とかをディープコピーする前に](https://zenn.dev/kinkinbeer135ml/articles/79972f1e056887)
+- ![](img/zenn.png) [【Docker】ファイル実行できるNode.js環境を作る](https://zenn.dev/kinkinbeer135ml/articles/6369ee73dd1508)
 <!--[END POSTS LIST]-->
 
 # SNS
