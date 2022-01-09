@@ -36,6 +36,8 @@ jobs:
         eval $(ssh-agent -s)
         ssh-add ~/.ssh/id_rsa
         ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+        ssh -oStrictHostKeyChecking=no github-Landmaster135
+        
     - name: git remote set-url
       run: git remote set-url origin git@github.com:Landmaster135/FeedFetcher.git
         
