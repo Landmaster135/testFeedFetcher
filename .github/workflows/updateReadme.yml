@@ -61,8 +61,8 @@ jobs:
 #       run: apt install git-all -y
 
     - name: Install feedFetcher
-      run: npm install github.com/Landmaster135/FeedFetcher
-#       run: npm install github.com/Landmaster135/FeedFetcher@latest
+      run: npm install github.com/Landmaster135/feed-fetcher
+#       run: npm install github.com/Landmaster135/feed-fetcher@latest
     
     - name: run feedFetcher
       run: ./node_modules/feedFetcher/bin/run --config-yaml=configOfFeedFetcher.yml
