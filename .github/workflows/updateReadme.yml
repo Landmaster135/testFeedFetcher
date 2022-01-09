@@ -49,6 +49,11 @@ jobs:
 #     - name: npm test
 #       run: npm test
     
+    - name: version kakunin
+      run: |
+        node -V
+        npm -V
+
     - name: Install feedFetcher
       run: npm install github.com/Landmaster135/FeedFetcher
 #       run: npm install github.com/Landmaster135/FeedFetcher@latest
