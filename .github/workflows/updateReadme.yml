@@ -1,12 +1,9 @@
 name: Update README for Qiita/Zenn feed
 
-# on:
-#   workflow_dispatch:
-#   schedule:
-#     - cron:  '0 1 * * *'
 on:
-  issue_comment:
-    types: [created, edited]
+  workflow_dispatch:
+  schedule:
+    - cron:  '0  * * *'
 
 jobs:
   updateFeed:
@@ -14,9 +11,6 @@ jobs:
     steps:
     - name: apt update
       run: sudo apt update
-      
-#     - name: apt install curl
-#       run: sudo apt install curl -y
       
     - name: Checkout
       uses: actions/checkout@v2
