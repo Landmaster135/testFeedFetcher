@@ -31,8 +31,8 @@ jobs:
 #     - name: npm setup
 #       run: npm install -y
       
-    - name: npm test
-      run: npm test
+#     - name: npm test
+#       run: npm test
     
     - name: Install feedFetcher
       run: npm install github.com/Landmaster135/feedFetcher@latest
