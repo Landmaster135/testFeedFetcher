@@ -43,7 +43,7 @@ jobs:
         npm -v
 
     - name: Install feedFetcher
-      run: npm install ssh://github.com/Landmaster135/feed-fetcher@latest
+      run: npm install github.com/Landmaster135/feed-fetcher@latest
 #       run: npm install https://github.com/Landmaster135/feed-fetcher
 #       run: npm install github.com/Landmaster135/feed-fetcher@latest
     
