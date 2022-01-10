@@ -56,12 +56,12 @@ docker image ls
 
 ### tag
 ```shell
-
+docker tag my-nodejs-app:latest landmaster135/build-nodejs-in-ubuntu:latest
 ```
 
 ### push
 ```shell
-
+docker push landmaster135/build-nodejs-in-ubuntu:latest
 ```
 
 ### Execute in the windows machine while the machine being booted by docker.
