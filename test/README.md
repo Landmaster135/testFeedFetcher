@@ -1,5 +1,5 @@
 # FeedFetcher_Development
-This README.md file shows about the development for "[FeedFethcher](https://github.com/Landmaster135/feed-fetcher)".
+This repository is to test of "[FeedFethcher](https://github.com/Landmaster135/feed-fetcher)".
 
 # Test
 
