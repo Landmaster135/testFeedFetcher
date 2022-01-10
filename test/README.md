@@ -14,12 +14,28 @@ docker run -it --rm --name my-running-app my-nodejs-app
 
 ## Test with Docker
 
-### Execute in the machine by docker.
+### Execute in the machine via docker image.
 
 ```shell
 npm run start
 ```
 
+### Execute in the windows machine while the machine being booted by docker.
+
+```dosbatch
+docker ps
+docker cp <container ID>:/usr/app/testtest.md .
+```
+
+## Test with Jest
+Put test file into `__test__` folder to test with Jset.
+Input this command to test with jest.
+
+```dosbatch
+npx jest
+```
+
+# Docker Push
 ## Push to Docker Hub.
 
 ### check whether login docker hub or not.
@@ -62,21 +78,6 @@ docker tag my-nodejs-app:latest landmaster135/build-nodejs-in-ubuntu:latest
 ### push
 ```shell
 docker push landmaster135/build-nodejs-in-ubuntu:latest
-```
-
-### Execute in the windows machine while the machine being booted by docker.
-
-```dosbatch
-docker ps
-docker cp <container ID>:/usr/app/testtest.md .
-```
-
-## Test with Jest
-Put test file into `__test__` folder to test with Jset.
-Input this command to test with jest.
-
-```dosbatch
-npx jest
 ```
 
 # Memo of index.js
