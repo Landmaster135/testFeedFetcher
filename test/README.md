@@ -1,5 +1,5 @@
 # FeedFetcher_Development
-This README.md file shows about the development for "FeedFethcher".
+This README.md file shows about the development for "[FeedFethcher](https://github.com/Landmaster135/feed-fetcher)".
 
 # Test
 
@@ -79,9 +79,3 @@ docker tag my-nodejs-app:latest landmaster135/build-nodejs-in-ubuntu:latest
 ```shell
 docker push landmaster135/build-nodejs-in-ubuntu:latest
 ```
-
-# Memo of index.js
-
-## writeFeedToText()
-
-![](memo_writeFeedToText.jpg)
