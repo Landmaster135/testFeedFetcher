@@ -38,7 +38,7 @@ npx jest
 # Docker Push
 ## Push to Docker Hub.
 
-### check whether login docker hub or not.
+### check whether you have logged in docker hub or not.
 ```shell
 echo a | docker login
 ```
@@ -79,3 +79,14 @@ docker tag my-nodejs-app:latest landmaster135/build-nodejs-in-ubuntu:latest
 ```shell
 docker push landmaster135/build-nodejs-in-ubuntu:latest
 ```
+
+### logout
+```shell
+docker logout
+```
+
+#### Answer in the case logged out.
+```shell
+Removing login credentials for https://index.docker.io/v1/
+```
+
