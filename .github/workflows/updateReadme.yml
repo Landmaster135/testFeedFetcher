@@ -2,9 +2,8 @@ name: Update README for Qiita/Zenn feed
 
 on:
   workflow_dispatch:
-  label:
-    types:
-      - edited
+  issue_comment:
+    types: [created, edited]
 
 jobs:
   updateFeed:
