@@ -2,7 +2,9 @@ name: Update README for Qiita/Zenn feed
 
 on:
   workflow_dispatch:
-  issues: write
+  label:
+    types:
+      - created
 
 jobs:
   updateFeed:
