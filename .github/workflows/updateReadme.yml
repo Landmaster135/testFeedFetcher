@@ -2,8 +2,7 @@ name: Update README for Qiita/Zenn feed
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron:  '0 0 * * *'
+  issues: write
 
 jobs:
   updateFeed:
