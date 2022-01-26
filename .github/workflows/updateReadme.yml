@@ -41,6 +41,9 @@ jobs:
 #       run: npm install https://github.com/Landmaster135/feed-fetcher
 #       run: npm install github.com/Landmaster135/feed-fetcher@latest
     
+    - name: copy file from this repo
+      run: ls
+    
     - name: run feedFetcher
       run: |
         chmod 777 ./node_modules/feed-fetcher/bin/run
