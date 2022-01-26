@@ -48,11 +48,11 @@ You can click the Preview link to take a look at your changes.
 # Recent Posts
 
 <!--[START POSTS LIST]-->
-
+- ![](img/endorphinbath.png) [【Node.js】Seleniumでテスト自動化ツール用ライブラリを作った](https://www.endorphinbath.com/nodejs-selenium-auto-test-library/)
 - ![](img/zenn.png) [【Markdown】Mermaid.jsで使えない？文字](https://zenn.dev/kinkinbeer135ml/articles/f08ce790091aca)
-- ![](img/zenn.png) [【Markdown】Mermaid.jsで使えない？文字](https://zenn.dev/kinkinbeer135ml/articles/f08ce790091aca)
-- ![](img/zenn.png) [【Markdown】Mermaid.jsで使えない？文字](https://zenn.dev/kinkinbeer135ml/articles/f08ce790091aca)
-- ![](img/zenn.png) [【Markdown】Mermaid.jsで使えない？文字](https://zenn.dev/kinkinbeer135ml/articles/f08ce790091aca)
+- ![](img/endorphinbath.png) [【GAS、Google Spreadsheet】Google Driveに共有したWebサイトのURLをGoogleスプシに転記する。](https://www.endorphinbath.com/gas-webclip-to-gss/)
+- ![](img/endorphinbath.png) [【GAS、Google Spreadsheet】Twitterにランダムなツイートを投稿するBotを作る](https://www.endorphinbath.com/gas-twitter-bot-random-tweet/)
+- ![](img/endorphinbath.png) [【GAS、Google Spreadsheet】TwitterのBotを作成するために認証を行う。](https://www.endorphinbath.com/gas-twitter-bot-authorize/)
 <!--[END POSTS LIST]-->
 
 # SNS
