@@ -47,7 +47,7 @@ jobs:
     - name: run feedFetcher
       run: |
         chmod 777 ./node_modules/feed-fetcher/bin/run
-        ./node_modules/feed-fetcher/bin/run --config-yaml=configOfFeedFetcher.yml
+        ./node_modules/feed-fetcher/bin/run --config-yaml=./configOfFeedFetcher.yml
       
     - name: git setting
       run: |
