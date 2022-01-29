@@ -60,6 +60,11 @@ You can click the Preview link to take a look at your changes.
 - ![](img/qiita.png) [【Node.js、Javascript】Seleniumで疑似要素の属性値を取得する](https://qiita.com/Landmaster135/items/c0f26163950425c50167)
 - ![](img/zenn.png) [【Node.js】Qiita/Zennの投稿をGitHubのProfileに自動反映する。（半分ポエム）](https://zenn.dev/kinkinbeer135ml/articles/968c7f8a5f0767)
 - ![](img/qiita.png) [Github Actionsで別のリポジトリにSSH接続するための手順](https://qiita.com/Landmaster135/items/f426b499411fbd8dbe90)
+- ![](img/qiita.png) [Githubにある自作のnpmモジュールをnpm installしてENOENTなエラーが出た時](https://qiita.com/Landmaster135/items/2cff3d8673a07cb4ea93)
+- ![](img/qiita.png) [【Node.js】Windows環境におけるCypressのIntegrationフォルダーの場所](https://qiita.com/Landmaster135/items/e8ebf5bda349f731cf1e)
+- ![](img/note.png) [内軟骨種とかいう病気で右手の人差し指を手術した時の話](https://note.com/kinkinbeer135ml/n/ndd6b64e0f3f4)
+- ![](img/qiita.png) [【Node.js】バージョンが古くてfetchが使えんのお](https://qiita.com/Landmaster135/items/19e67db282f2e35d1197)
+- ![](img/zenn.png) [【Javascript】オブジェクト（連想配列じゃない）とかをディープコピーする前に](https://zenn.dev/kinkinbeer135ml/articles/79972f1e056887)
 <!--[END POSTS LIST]-->
 
 # SNS
