@@ -1,5 +1,5 @@
 # FeedFetcher_Development
-This repository is to test "[feed-fethcher](https://github.com/Landmaster135/feed-fetcher)".
+This repository is to test "[feed-fethcher](https://github.com/landmaster135/feed-fetcher)".
 
 # Test
 
