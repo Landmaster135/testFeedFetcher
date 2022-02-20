@@ -37,9 +37,9 @@ jobs:
         npm -v
 
     - name: Install feedFetcher
-      run: npm install ssh://github.com/Landmaster135/feed-fetcher
-#       run: npm install https://github.com/Landmaster135/feed-fetcher
-#       run: npm install github.com/Landmaster135/feed-fetcher@latest
+      run: npm install ssh://github.com/landmaster135/feed-fetcher
+#       run: npm install https://github.com/landmaster135/feed-fetcher
+#       run: npm install github.com/landmaster135/feed-fetcher@latest
     
     - name: copy file from this repo
       run: ls
@@ -52,8 +52,8 @@ jobs:
       
     - name: git setting
       run: |
-        git config --local user.email "52403447+Landmaster135@users.noreply.github.com"
-        git config --local user.name "Landmaster135"
+        git config --local user.email "52403447+landmaster135@users.noreply.github.com"
+        git config --local user.name "landmaster135"
     
     - name: git commit
       run: |
