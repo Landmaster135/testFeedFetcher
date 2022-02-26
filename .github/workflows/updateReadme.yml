@@ -1,9 +1,9 @@
-name: Update README for Qiita/Zenn feed
+name: Update README for RSS feed
 
 on:
   workflow_dispatch:
-  issue_comment:
-    types: [created, edited]
+  schedule:
+    - cron:  '0 0 * * *'
 
 jobs:
   updateFeed:
@@ -20,16 +20,16 @@ jobs:
       with:
         node-version: '16.13.1'
     
-    - name: Authenticate SSH
-      env:
-        PRIVATE_KEY: ${{ secrets.TOFEEDFETCHER }}
-      run: |
-        mkdir -p ~/.ssh
-        echo "$PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
-        chmod 700 ~/.ssh/id_rsa
-        eval $(ssh-agent -s)
-        ssh-add ~/.ssh/id_rsa
-        ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+#     - name: Authenticate SSH
+#       env:
+#         PRIVATE_KEY: ${{ secrets.TOFEEDFETCHER }}
+#       run: |
+#         mkdir -p ~/.ssh
+#         echo "$PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+#         chmod 700 ~/.ssh/id_rsa
+#         eval $(ssh-agent -s)
+#         ssh-add ~/.ssh/id_rsa
+#         ssh-keyscan -H github.com >> ~/.ssh/known_hosts
     
     - name: Confirm version of node and npm
       run: |
@@ -37,12 +37,9 @@ jobs:
         npm -v
 
     - name: Install feedFetcher
-      run: npm install ssh://github.com/landmaster135/feed-fetcher
-#       run: npm install https://github.com/landmaster135/feed-fetcher
+      run: npm install https://github.com/landmaster135/feed-fetcher
+#       run: npm install ssh://github.com/landmaster135/feed-fetcher
 #       run: npm install github.com/landmaster135/feed-fetcher@latest
-    
-    - name: copy file from this repo
-      run: ls
     
     - name: run feedFetcher
       run: |
