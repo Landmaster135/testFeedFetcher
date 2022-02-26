@@ -44,8 +44,8 @@ jobs:
     - name: run feedFetcher
       run: |
         chmod 777 ./node_modules/feed-fetcher/bin/*
-        ./node_modules/feed-fetcher/bin/runFeedFetch --config-yaml=../../configOfFeedFetcher.yml
-        ./node_modules/feed-fetcher/bin/runImageScale --config-yaml=../../configOfImageScaler.yml
+        ./node_modules/feed-fetcher/bin/runFeedFetch --config-yaml=../../../../configOfFeedFetcher.yml
+        ./node_modules/feed-fetcher/bin/runImageScale --config-yaml=../../../../configOfImageScaler.yml
       
     - name: git setting
       run: |
