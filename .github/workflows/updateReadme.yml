@@ -41,14 +41,12 @@ jobs:
 #       run: npm install ssh://github.com/landmaster135/feed-fetcher
 #       run: npm install github.com/landmaster135/feed-fetcher@latest
     
+    - name: run ls
+      run: ls
+      
     - name: run feedFetcher
       run: |
         chmod 777 ./node_modules/feed-fetcher/bin/*
-        ls ..
-        ls ../..
-        ls ../../..
-        ls ../../../..
-        ls ../../../../..
         ./node_modules/feed-fetcher/bin/runFeedFetch --config-yaml=../../../../configOfFeedFetcher.yml
         ./node_modules/feed-fetcher/bin/runImageScale --config-yaml=../../../../configOfImageScaler.yml
       
