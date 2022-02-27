@@ -43,6 +43,9 @@ jobs:
     
     - name: mkdir
       run: mkdir myfolder
+    
+    - name: make file
+      run: echo aa > ./myfolder/README.md
       
     - name: Copy the Readmes
       run: |
@@ -56,6 +59,10 @@ jobs:
         
     - name: run ls
       run: ls
+      
+    - name: run ls
+      run: ls ./myfolder
+      
       
     - name: run feedFetcher
       run: |
