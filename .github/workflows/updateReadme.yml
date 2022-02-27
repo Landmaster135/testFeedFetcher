@@ -41,6 +41,9 @@ jobs:
 #       run: npm install ssh://github.com/landmaster135/feed-fetcher
 #       run: npm install github.com/landmaster135/feed-fetcher@latest
     
+    - name: mkdir
+      run: mkdir myfolder
+      
     - name: Copy the Readmes
       run: |
         find ./myfolder/ -type f -name "README.md" | while read fname; do
