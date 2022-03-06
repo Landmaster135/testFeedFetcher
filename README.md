@@ -88,7 +88,7 @@ You can click the Preview link to take a look at your changes.
 <!--[END DECOIMAGE LIST]-->
 </div>
 
-## Recent Posts
+## Recent Posts🐧
 
 <!--[START POSTS LIST]-->
 - ![](img/qiita.png) [【Python】DockerでOpenCVをインストールする時の設定](https://qiita.com/landmaster135/items/9c337926ad0fc3dc164b)
@@ -108,7 +108,7 @@ You can click the Preview link to take a look at your changes.
 - ![](img/qiita.png) [【Node.js、Javascript】Seleniumで疑似要素の属性値を取得する](https://qiita.com/landmaster135/items/c0f26163950425c50167)
 <!--[END POSTS LIST]-->
 
-## Blog, SNS
+## Blog, SNS🍺
 
 <p>
   <a href="https://gpvc.arturio.dev" target="_blank" rel="noopener noreferrer">
