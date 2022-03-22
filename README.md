@@ -91,7 +91,9 @@ You can click the Preview link to take a look at your changes.
 ## Recent Posts🐧
 
 <!--[START POSTS LIST]-->
-- ![](img/endorphinbath.png) [【画像編集】Pixelmator Pro内で選択した画像を斜めに切り抜く方法](https://www.endorphinbath.com/https-www-endorphinbath-com-pixelmatorpro-trim-obliquely/)
+- ![](img/endorphinbath.png) [【JavaScript】実行中の関数自身の関数名やクラス自身のメソッド名を取得する](https://www.endorphinbath.com/javascript-get-this-class-funcname/)
+- ![](img/endorphinbath.png) [【JavaScript】Errorタイプのオブジェクトかどうかを判定する](https://www.endorphinbath.com/javascript-error-type-object/)
+- ![](img/endorphinbath.png) [【画像編集】Pixelmator Pro内で選択した画像を斜めに切り抜く方法](https://www.endorphinbath.com/pixelmatorpro-trim-obliquely/)
 - ![](img/endorphinbath.png) [【Python】.pyファイルにある関数とメソッドを全て取得する](https://www.endorphinbath.com/python-getting-all-methods-in-file/)
 - ![](img/endorphinbath.png) [【Python】複数の区切り文字を指定して文字列を配列に分割する](https://www.endorphinbath.com/python-string-to-list-by-multi-seperator/)
 - ![](img/endorphinbath.png) [【Python】文字列の先頭と末尾にあるスペース、空白文字を削除する](https://www.endorphinbath.com/python-remove-spaces-head-and-tail/)
@@ -100,8 +102,6 @@ You can click the Preview link to take a look at your changes.
 - ![](img/qiita.png) [【Python】DockerでOpenCVをインストールする時の設定](https://qiita.com/landmaster135/items/9c337926ad0fc3dc164b)
 - ![](img/endorphinbath.png) [【GCP】GitHub Actionsからキーなしで認証するための設定](https://www.endorphinbath.com/gcp-github-actions-auth-nokeys/)
 - ![](img/endorphinbath.png) [【Python】Google Spreadsheetを編集するために初期設定からのまとめ](https://www.endorphinbath.com/python-gss-setting-to-edit/)
-- ![](img/endorphinbath.png) [【Discord API】Interactionの応答のタイムアウトを考えて実装する（pycord使用）](https://www.endorphinbath.com/discord-api-about-timeout/)
-- ![](img/endorphinbath.png) [PCブラウザ上のYouTubeで再生している曲をLast.fmでscrobbleしようと思ったけど、10分でやめた話](https://www.endorphinbath.com/youtube-lastfm-quit-scrobbling/)
 - ![](img/zenn.png) [【Markdown】Mermaid.jsで使えない？文字](https://zenn.dev/kinkinbeer135ml/articles/f08ce790091aca)
 - ![](img/qiita.png) [【Node.js、Javascript】Seleniumで要素のXPathを一気に取得する。](https://qiita.com/landmaster135/items/3bf54fad9d1c72b1674d)
 - ![](img/qiita.png) [【Node.js、Javascript】SeleniumでOffice365にログインする](https://qiita.com/landmaster135/items/9d0064e86d42297ea84b)
