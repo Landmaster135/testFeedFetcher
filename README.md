@@ -91,6 +91,7 @@ You can click the Preview link to take a look at your changes.
 ## Recent Posts🐧
 
 <!--[START POSTS LIST]-->
+- ![](img/endorphinbath.png) [【Android】OneDriveがデータ容量を沢山とりすぎな時に減らす方法](https://www.endorphinbath.com/android-onedrive-removing-much-data/)
 - ![](img/endorphinbath.png) [【GitHub】日常の色々なTODOタスクを管理する](https://www.endorphinbath.com/github-todo-management-everyday/)
 - ![](img/endorphinbath.png) [【JavaScript】実行中の関数自身の関数名やクラス自身のメソッド名を取得する](https://www.endorphinbath.com/javascript-get-this-class-funcname/)
 - ![](img/endorphinbath.png) [【JavaScript】Errorタイプのオブジェクトかどうかを判定する](https://www.endorphinbath.com/javascript-error-type-object/)
@@ -101,7 +102,6 @@ You can click the Preview link to take a look at your changes.
 - ![](img/endorphinbath.png) [【Python】gspreadなどを使う時にセルを数値からアルファベット形式（A1 notation）に加工する](https://www.endorphinbath.com/python-gspread-number-to-a1notation/)
 - ![](img/endorphinbath.png) [【Heroku】Pythonで作成したDiscord用のボットをGitHubリポジトリからデプロイするやり方](https://www.endorphinbath.com/heroku-how-to-deploy-discord-bot/)
 - ![](img/qiita.png) [【Python】DockerでOpenCVをインストールする時の設定](https://qiita.com/landmaster135/items/9c337926ad0fc3dc164b)
-- ![](img/endorphinbath.png) [【GCP】GitHub Actionsからキーなしで認証するための設定](https://www.endorphinbath.com/gcp-github-actions-auth-nokeys/)
 - ![](img/zenn.png) [【Markdown】Mermaid.jsで使えない？文字](https://zenn.dev/kinkinbeer135ml/articles/f08ce790091aca)
 - ![](img/qiita.png) [【Node.js、Javascript】Seleniumで要素のXPathを一気に取得する。](https://qiita.com/landmaster135/items/3bf54fad9d1c72b1674d)
 - ![](img/qiita.png) [【Node.js、Javascript】SeleniumでOffice365にログインする](https://qiita.com/landmaster135/items/9d0064e86d42297ea84b)
