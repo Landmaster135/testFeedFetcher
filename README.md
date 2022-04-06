@@ -91,6 +91,7 @@ You can click the Preview link to take a look at your changes.
 ## Recent Posts🐧
 
 <!--[START POSTS LIST]-->
+- ![](img/endorphinbath.png) [【Markdown、HTML】Visual Basicのコードブロックの中に”&lt;TODAY()”を入れると、その周辺の行が表示されなくなる](https://www.endorphinbath.com/markdown-html-today-vanishes-row/)
 - ![](img/endorphinbath.png) [【GAS、Google Spreadsheet】ブログに使用した画像をGoogleドライブで管理するために書いたスクリプト](https://www.endorphinbath.com/gas-manage-images-googledrive/)
 - ![](img/endorphinbath.png) [[Game] Penguins having done with animalkind in Penguin Isle：（「ペンギンの島」の動物を辞めたペンギンたちを見せるよ）](https://www.endorphinbath.com/game-penguinisle-penguins-having-done-with-animal/)
 - ![](img/endorphinbath.png) [[Game] Penguins having done with penguinkind in Penguin Isle：（「ペンギンの島」のペンギンを辞めたペンギンたちを見せるよ）](https://www.endorphinbath.com/game-penguinisle-penguins-having-done-with-penguin/)
@@ -100,7 +101,6 @@ You can click the Preview link to take a look at your changes.
 - ![](img/endorphinbath.png) [【画像編集】Affinity Designerで論理差分（Boolean Difference）などの論理処理を行う時に気をつけること](https://www.endorphinbath.com/affinity-designer-boolean-difference-precaution/)
 - ![](img/endorphinbath.png) [【ビジネス、キャリア】開発工数の見積もり手法とWBS作成の手法を少しまとめてみた](https://www.endorphinbath.com/business-methods-for-quotation-and-wbs/)
 - ![](img/endorphinbath.png) [【Android】OneDriveがデータ容量を沢山とりすぎな時に減らす方法](https://www.endorphinbath.com/android-onedrive-removing-much-data/)
-- ![](img/endorphinbath.png) [【GitHub】日常の色々なTODOタスクを管理する](https://www.endorphinbath.com/github-todo-management-everyday/)
 - ![](img/qiita.png) [【Python】DockerでOpenCVをインストールする時の設定](https://qiita.com/landmaster135/items/9c337926ad0fc3dc164b)
 - ![](img/zenn.png) [【Markdown】Mermaid.jsで使えない？文字](https://zenn.dev/kinkinbeer135ml/articles/f08ce790091aca)
 - ![](img/qiita.png) [【Node.js、Javascript】Seleniumで要素のXPathを一気に取得する。](https://qiita.com/landmaster135/items/3bf54fad9d1c72b1674d)
